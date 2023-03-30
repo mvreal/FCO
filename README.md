@@ -53,7 +53,7 @@ concrete.  PCI Journal, May-June, 1987.
 
 ## __Aula 01__
 
-### [Capítulo 1 - Introdução. Estados Limites. Solicitações Normais. Seção Poligonal](https://nbviewer.jupyter.org/github/mvreal/TAC/blob/master/Capitulo_1.ipynb)
+### [Capítulo 1 - Introdução. Estados Limites. Solicitações Normais. Seção Poligonal](https://nbviewer.org/github/mvreal/TAC/blob/main/Capitulo_1-1.ipynb)
 
 #### 1.1 - Introdução: Estados Limites
 #### 1.2 - Solicitações Normais
@@ -61,7 +61,7 @@ concrete.  PCI Journal, May-June, 1987.
 
 ## __Aula 02__
 
-### [Capítulo 2 - Seções Poligonais de Concreto Armado Submetidas à Flexão Composta Oblíqua](https://nbviewer.jupyter.org/github/mvreal/TAC/blob/master/blob/master/Capitulo_2.ipynb)
+### [Capítulo 2 - Seções Poligonais de Concreto Armado Submetidas à Flexão Composta Oblíqua](https://nbviewer.org/github/mvreal/TAC/blob/main/Capitulo_2-1.ipynb)
 
 
 #### 2.1 - Esforços atuantes de cálculo
@@ -76,7 +76,7 @@ concrete.  PCI Journal, May-June, 1987.
 
 ## __Aula 03__
 
-### [Capítulo 3 - Dimensionamento e Verificação de Seções Poligonais de Concreto Armado Submetidas à Flexão Composta Oblíqua](https://nbviewer.jupyter.org/github/mvreal/TAC/blob/master/blob/master/Capitulo_3.ipynb)
+### [Capítulo 3 - Dimensionamento e Verificação de Seções Poligonais de Concreto Armado Submetidas à Flexão Composta Oblíqua](https://nbviewer.org/github/mvreal/TAC/blob/main/Capitulo_3-1.ipynb)
 
 #### 3.1 - Conceitos fundamentais. O Método de Newton-Raphson
 #### 3.2 - Algoritmo para o dimensionamento de uma seção
@@ -86,7 +86,7 @@ concrete.  PCI Journal, May-June, 1987.
 
 ## __Aula 04__
 
-### [Capítulo 4 - Cálculo das matrizes de derivadas parciais](https://nbviewer.jupyter.org/github/mvreal/TAC/blob/master/blob/master/Capitulo_4.ipynb)
+### [Capítulo 4 - Cálculo das matrizes de derivadas parciais](https://nbviewer.org/github/mvreal/TAC/blob/main/Capitulo_4-1.ipynb)
 #### 4.1 - Introdução
 #### 4.2 - Derivadas parciais dos esforços resistentes em relação à profundidade da linha neutra x
 #### 4.3 - Derivadas parciais dos esforços resistentes em relação à inclinação  da linha neutra alpha
@@ -96,7 +96,7 @@ concrete.  PCI Journal, May-June, 1987.
 
 ## __Aula 05__
 
-### [Capítulo 5 - Exemplos de aplicação](https://nbviewer.jupyter.org/github/mvreal/TAC/blob/master/Capitulo_5.ipynb)
+### [Capítulo 5 - Exemplos de aplicação](https://nbviewer.org/github/mvreal/TAC/blob/main/Capitulo_5-1.ipynb)
 
 #### 5.1 - Pilar de seção vazada
 #### 5.2 - Viga de seção I
