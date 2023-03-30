@@ -23,8 +23,8 @@ class Secao():
         
     @property
     def props(self):
-        coords = np.array(coords)
-        x, y = coords[:, 0], coords[:, 1]
+        coords = np.array(self.coords)
+        x, y = coords[:,0], coords[:,1]
         
         #
         G00 = 0.00
