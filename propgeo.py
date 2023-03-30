@@ -12,20 +12,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 #
 #
-class propgeo():
+class Secao():
     """A class to calculate the geometric properties of a cross-section using the Green's Theorem.
     """
 
-    def __init__(self, xcoord, ycoord,):
-        """Initialize suspension properties in SI units."""
-        self.xcoord = xcoord  # x coordinate
-        self.ycoord = ycoord  # y coordinate
+    def __init__(self, coords=[]):
+        """Initialize coordinates of the vertices os the poligonal cross-section."""
+        self.coords = coords  # x,y coordinates of the poligonal vertices
         
-
-    def props(self,xcoord,ycoord):
-                
-        x = np.array(self.xcoord)
-        y = np.array(self.ycoord)
+        
+    @property
+    def props(self):
+        coords = np.array(coords)
+        x, y = coords[:, 0], coords[:, 1]
+        
         #
         G00 = 0.00
         G01 = 0.00
