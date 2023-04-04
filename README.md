@@ -68,9 +68,8 @@ concrete.  PCI Journal, May-June, 1987.
 #### 2.2 - Esforços resistentes de cálculo
 #### 2.3 - Hipóteses básicas de cálculo
 #### 2.4 - Compatibilidade de deformações
-#### 2.5 - Orientação da linha neutra
-#### 2.6 - Diagrama tensão-deformação dos materiais
-#### 2.7 - Cálculo dos esforços resistentes
+#### 2.5 - Diagramas tensão-deformação dos materiais
+#### 2.6 - Cálculo dos esforços resistentes
 
 
 
