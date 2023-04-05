@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 #
 #
-fck = np.array([90])
+fck = np.array([50,60,70,80,90])
 a1 = np.zeros(len(fck))
 a2 = np.zeros(len(fck))
 #
@@ -41,7 +41,7 @@ for fc in fck:
     sxy = 0.00
     sx2y = 0.00
 
-    for j in range(npoints-1):
+    for j in range(npoints):
         
         sx2 += x[j]**2
         sx3 += x[j]**3
@@ -55,19 +55,19 @@ for fc in fck:
 
     a2[i] = (sx2y - a1[i] * sx3)/sx4
 
-    print(fck[i],a2[i],a1[i])
+    print('fck = {0:0.0f} MPa a2 = {1:0.0f} a1 = {2:0.2f}'.format(fck[i],a2[i],a1[i]))
 
     y2 = scd*(a2[i]*x**2+a1[i]*x)
     yn = scd*y
 
-    plt.plot(1000*x,yn,color ='red',label=n)
-    plt.plot(1000*x,y2,color ='blue',label='2')
-
-    plt.xlabel(r'$\epsilon_{c} mm/m$')
-    plt.ylabel(r'$\sigma_{cd}$')
-    plt.grid()
-    plt.legend(loc='lower right')
-    plt.show()
+plt.plot(1000*x,yn,color ='red',label='n = 1.4')
+plt.plot(1000*x,y2,color ='blue',label='n = 2')
+plt.title(r'$f_{ck}$ = 90 MPa')
+plt.xlabel(r'$\epsilon_{c} ‰$')
+plt.ylabel(r'$\sigma_{cd}$')
+plt.grid()
+plt.legend(loc='lower right')
+plt.show()
     
     
 
