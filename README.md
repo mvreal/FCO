@@ -80,7 +80,7 @@ concrete.  PCI Journal, May-June, 1987.
 #### 3.1 - Conceitos fundamentais. O Método de Newton-Raphson
 #### 3.2 - Algoritmo para o dimensionamento de uma seção
 #### 3.3 - Algoritmo para a verificação de uma seção
-#### 3.4 - Fluxograma do programa
+#### 3.4 - Fluxograma do programa de cálculo
 
 
 ## __Aula 04__
