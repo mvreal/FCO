@@ -18,21 +18,21 @@ a2 = np.zeros(len(fck))
 i = -1
 for fc in fck:
     i += 1
-    if fc<=50:
+    if fc<=50.00:
         n = 2.00
         ec2 = 0.002
         
     else:
-        n = 1.40 + 23.40*((90 - fc)/100)**4
-        ec2 = (2.00 + 0.085*(fc - 50)**0.53)/1000.
+        n = 1.40 + 23.40*((90.00 - fc)/100.00)**4
+        ec2 = (2.00 + 0.085*(fc - 50.00)**0.53)/1000.
 
     scd = 0.85 * fc / 1.4
 
-    npoints = 100
+    npoints = 1000
 
     # Evaluation of y = f(x)
     x = np.linspace(0.00, ec2, npoints)
-    y = (1 - (1 - x/ec2)**n)
+    y = (1.00 - (1.00 - x/ec2)**n)
 
     #Summations
     sx2 = 0.00
@@ -51,7 +51,7 @@ for fc in fck:
 
     # Coeficients a1 and a2
 
-    a1[i] = (sx2y - (sx4*sxy)/sx3)/(sx3 - (sx2*sx4)/sx3)
+    a1[i] = (sx2y - sx4*sxy/sx3)/(sx3 - sx2*sx4/sx3)
 
     a2[i] = (sx2y - a1[i] * sx3)/sx4
 
