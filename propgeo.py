@@ -13,32 +13,15 @@ import matplotlib.pyplot as plt
 #
 class Secao():
     """
-    Secao is a Python Class for the design and verification of reinforced concrete polygonal cross-secions
+    Secao is a Python Class for the evaluation of the geometrical properties polygonal cross-secions
     """
 
-    def __init__(self, op=[], gamma_c=1.4, gamma_s=1.15, nc=[], nrc=[], ns=[], na=[], maxd=[], mayd=[], xc=[], yc=[], fck=[], nvrc=[], xs=[], ys=[], fyk=[], perc=[]):
+    def __init__(self, xc=[], yc=[]):
         """Initialize the variables"""
-        self.op = op # solution option: 1 = design of the reinforcement area, 2 = verification of the cross-section capacity
-        self.gamma_c = gamma_c # concrete safety factor, usually equal to 1.4
-        self.gamma_s = gamma_s # steel safety factor, usually equal to 1.15
-        self.nc = nc # number of polygonal vertices
-        self.nrc = nrc # number of different concrete regions in the cross-section
-        self.ns = ns # number os steel bars
-        self.na = na # design value of the external normal force: positive for tension force and negative for compression force
-        self.maxd = maxd # design value of the external bending moment in relation to the x axis
-        self.mayd = mayd # design value of the external bending moment in relation to the x axis
         self.xc = xc[:]  # x coordinates of the poligonal vertices
         self.yc = yc[:]  # y coordinates of the poligonal vertices
-        self.fck = fck[:] # fck of the different cross-section regions
-        self.nvrc = nvrc[:] # number of vertices of each different concrete region
-        self.xs = xs[:]  # x coordinates of the reinforcement bars
-        self.ys = ys[:]  # y coordinates of the reinforcement bars
-        self.fyk = fyk[:] # fyk of the reinforcement bar
-        self.perc = perc[:] # pencentage stell bar cross-section area of the total steel area in the cross-section
         
-
-
-        
+   
         
     @property
     def props(self):
