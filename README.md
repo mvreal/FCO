@@ -21,34 +21,37 @@
 
 ## __Bibliografia básica:__
 
-1. CAMPOS FILHO, A. Dimensionamento e Verificação de Seções Poligonais de 
+1. ARAÚJO, J.M. Curso de Concreto Armado, 4 v., 5 ed., Rio Grande, Editora Dunas, 2023.
+2. ARAÚJO, J.M. Reinforced concrete design to second generation of Eurocode 2: Simple and Combined Bending. 1st ed.,  Rio Grande, Editora Dunas, 2026.
+3. CAMPOS FILHO, A. Dimensionamento e Verificação de Seções Poligonais de 
 Concreto Armado Submetidas à Flexão Composta Oblíqua. CPGEC/UFRGS - CE 
 53/96. 
-2. CEB - Boletim no. 123 - Manual of Buckling and Instability, 1978. 
-3. CEB - Boletim no. 141 - Bending and compression, 1981. 
-4. CEB - Boletim no. 150 - Detailing of concrete structures,1982. 
-5. CEB - Boletim no. 155 - Buckling and instability, 1983. 
-6. CEB - Boletim no. 156 - Concrete under multiaxial states of stress, 1983. 
-7. CEB - Boletim no. 159 - Application of the finite element method to two-dimensional 
+4. CEB - Boletim no. 123 - Manual of Buckling and Instability, 1978. 
+5. CEB - Boletim no. 141 - Bending and compression, 1981. 
+6. CEB - Boletim no. 150 - Detailing of concrete structures,1982. 
+7. CEB - Boletim no. 155 - Buckling and instability, 1983. 
+8. CEB - Boletim no. 156 - Concrete under multiaxial states of stress, 1983. 
+9. CEB - Boletim no. 159 - Application of the finite element method to two-dimensional 
 reinforced concrete structures,1983. 
-8. CEB - Boletim no. 194 - Modelling of Structural Reinforced and Prestressed Concrete in 
+10. CEB - Boletim no. 194 - Modelling of Structural Reinforced and Prestressed Concrete in 
 Computer Programs, 1990. 
-9. CEB - Boletim no. 199 - Evaluation of the time-dependent behaviour of concrete, 1990. 
-10. CEB - Boletim no. 210 - Behaviour and analysis of reinforced concrete structures under 
+11. CEB - Boletim no. 199 - Evaluation of the time-dependent behaviour of concrete, 1990. 
+12. CEB - Boletim no. 210 - Behaviour and analysis of reinforced concrete structures under 
 alternate actions including inelastic response, 1991. 
-11. CEB - Boletim no. 213/214 - CEB-FIP Model Code 1990, 1993. 
-12. CEB - Boletim no. 230 - RC Elements under Cyclic Loading, 1996. 
-13. CHEN, W.F. & ATSUTA, T.  Theory of Beam-Columns, McGraw-Hill, 1977. 
-14. CHEN, W.F.  Plasticity in Reinforced Concrete, McGraw-Hill, 1982. 
-15. DUMONT, N.A. & MUSSO, JR., F. Dimensionamento de Seções e de Vigas-Colunas com 
+13. CEB - Boletim no. 213/214 - CEB-FIP Model Code 1990, 1993. 
+14. CEB - Boletim no. 230 - RC Elements under Cyclic Loading, 1996. 
+15. CHEN, W.F. & ATSUTA, T.  Theory of Beam-Columns, McGraw-Hill, 1977. 
+16. CHEN, W.F.  Plasticity in Reinforced Concrete, McGraw-Hill, 1982. 
+17. DUMONT, N.A. & MUSSO, JR., F. Dimensionamento de Seções e de Vigas-Colunas com 
 o uso de Microcomputadores. PUC/RJ, Julho, 1987. 
-16. FUSCO, P.B.  Estruturas de concreto - Solicitações normais, Guanabara Dois, 1981. 
-17. HINTON, E. Numerical Methods and Software for Dynamic Analysis of Plates and Shells. 
-18. HINTON, E. & OWEN, D.R.J. Finite element software for plates and shells, Pineridge, 
+18. FUSCO, P.B.  Estruturas de concreto - Solicitações normais, Rio de Janeiro, Guanabara Dois, 1981. 
+19. FUSCO, P.B.  Estruturas de concreto - Solicitações tangenciais, São Paulo, PINI, 2008. 
+20. HINTON, E. Numerical Methods and Software for Dynamic Analysis of Plates and Shells. 
+21. HINTON, E. & OWEN, D.R.J. Finite element software for plates and shells, Pineridge, 
 1984. 
-19. OWEN, D.R.J. & HINTON, E. Finite elements in plasticity: theory and practice, 
+22. OWEN, D.R.J. & HINTON, E. Finite elements in plasticity: theory and practice, 
 Pineridge, 1980. 
-20. SCHLAICH, J.; SCHAFER, K. & JENNEWEIN, M.  Toward a consistent design of structural 
+23. SCHLAICH, J.; SCHAFER, K. & JENNEWEIN, M.  Toward a consistent design of structural 
 concrete.  PCI Journal, May-June, 1987. 
 
 ## __Aula 01__
